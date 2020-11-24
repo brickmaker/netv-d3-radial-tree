@@ -99,7 +99,7 @@ function rootBaseBFS(adjNodes, rootId, visitedSet) {
 
     let degree = 0
     while (queue.length > 0) {
-        x = queue.shift()
+        const x = queue.shift()
         degree = Math.max(degree, x.depth)
         if (!adjNodes[x.id]) continue
         for (const yId of adjNodes[x.id]) {
