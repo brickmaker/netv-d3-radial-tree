@@ -29,7 +29,7 @@ given container, auto layout for all trees
 
 
 ```js
-tree = radialLayout(graph, rootId, configs)
+tree = radialLayoutMultiple(graph, rootId, configs)
 netv.data(tree)
 ```
 
